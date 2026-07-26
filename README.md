@@ -44,7 +44,7 @@ the Foundry equivalent actually used.
   HTTP-triggered flow that sends a conversation summary by email
 
 ### Part 2: Azure AI Pipeline
-1. **Transcription** — a ~5 minute clip of the Smartbridge video was
+1. **Transcription** — Smartbridge video was
    transcribed using **Azure Speech Studio** (Speech-to-Text, free F0 tier).
    See `docs/transcript.txt` for the output.
    - *(Stretch goal)* `scripts/transcribe_audio.py` — Python equivalent using
